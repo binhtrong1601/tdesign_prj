@@ -1,0 +1,26 @@
+.dropbtn {
+  border: none;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown_content {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  top: 54px;
+  background-color: red;
+}
+
+
+.menu_item{
+  padding: 10px 10px;
+  cursor: pointer;
+  border-bottom:2px solid white;
+}
+.menu_item:hover{
+  border-bottom:3px solid black;
+}
