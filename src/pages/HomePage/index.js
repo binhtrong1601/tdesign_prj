@@ -1,5 +1,22 @@
-import Header from "../../components/Header";
+import {
+  Clubs,
+  Footer,
+  Headers,
+  HotProduct,
+  ListProduct,
+  VideoBanner,
+} from "../../components";
+
 const HomePage = () => {
-  return <Header></Header>;
+  return (
+    <div>
+      <Headers />
+      <VideoBanner />
+      <ListProduct />
+      <Clubs />
+      <HotProduct />
+      <Footer />
+    </div>
+  );
 };
 export default HomePage;

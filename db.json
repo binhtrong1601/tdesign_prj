@@ -1,0 +1,271 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Design-Tottenham",
+      "type": "Design",
+      "img": "https://preview.redd.it/no3i5qfo1fh71.jpg?width=640&crop=smart&auto=webp&s=e5c728f77e102511bfc8d71389e5cda3449a7af3",
+      "price": 180000
+    },
+    {
+      "id": 2,
+      "name": "Design-Tottenham",
+      "type": "Design",
+      "img": "https://preview.redd.it/no3i5qfo1fh71.jpg?width=640&crop=smart&auto=webp&s=e5c728f77e102511bfc8d71389e5cda3449a7af3",
+      "price": 180000
+    },
+    {
+      "id": 3,
+      "name": "Design-Tottenham",
+      "type": "Design",
+      "img": "https://preview.redd.it/no3i5qfo1fh71.jpg?width=640&crop=smart&auto=webp&s=e5c728f77e102511bfc8d71389e5cda3449a7af3",
+      "price": 180000
+    },
+    {
+      "id": 4,
+      "name": "Design-Tottenham",
+      "type": "Design",
+      "img": "https://preview.redd.it/no3i5qfo1fh71.jpg?width=640&crop=smart&auto=webp&s=e5c728f77e102511bfc8d71389e5cda3449a7af3",
+      "price": 180000
+    },
+    {
+      "id": 5,
+      "name": "Design-Tottenham",
+      "type": "Design",
+      "img": "https://preview.redd.it/no3i5qfo1fh71.jpg?width=640&crop=smart&auto=webp&s=e5c728f77e102511bfc8d71389e5cda3449a7af3",
+      "price": 180000
+    },
+    {
+      "id": 6,
+      "name": "Design-Tottenham",
+      "type": "Design",
+      "img": "https://preview.redd.it/no3i5qfo1fh71.jpg?width=640&crop=smart&auto=webp&s=e5c728f77e102511bfc8d71389e5cda3449a7af3",
+      "price": 180000
+    },
+    {
+      "id": 7,
+      "name": "Design-Tottenham",
+      "type": "Design",
+      "img": "https://preview.redd.it/no3i5qfo1fh71.jpg?width=640&crop=smart&auto=webp&s=e5c728f77e102511bfc8d71389e5cda3449a7af3",
+      "price": 180000
+    },
+    {
+      "id": 8,
+      "name": "Design-Tottenham",
+      "type": "Design",
+      "img": "https://preview.redd.it/no3i5qfo1fh71.jpg?width=640&crop=smart&auto=webp&s=e5c728f77e102511bfc8d71389e5cda3449a7af3",
+      "price": 180000
+    }
+  ],
+  "clubdata": [
+    {
+      "key": "1",
+      "name": "ARSENAL",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-arsenal.png"
+    },
+    {
+      "key": "2",
+      "name": "MANCHESTER UNITED",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-mu.png"
+    },
+    {
+      "key": "3",
+      "name": "CHELSEA",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-chelsea.png"
+    },
+    {
+      "key": "4",
+      "name": "LIVERPOOL",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-liverpool.png"
+    },
+    {
+      "key": "5",
+      "name": "MANCHESTER CITY",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-man-city.png"
+    },
+    {
+      "key": "6",
+      "name": "TOTTENHAM HOTSPUR",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-tottenham.png"
+    },
+    {
+      "key": "7",
+      "name": "ATLETICO MADRkey",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-atletico.png"
+    },
+    {
+      "key": "8",
+      "name": "BARCELONA",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-barca.png"
+    },
+    {
+      "key": "9",
+      "name": "REAL MADRkey",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-real.png"
+    },
+    {
+      "key": "10",
+      "name": "BAYERN MUNICH",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-bayern.png"
+    },
+    {
+      "key": "11",
+      "name": "DORTMUND",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-dortmund.png"
+    },
+    {
+      "key": "12",
+      "name": "AC MILAN",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-ac-milan.png"
+    },
+    {
+      "key": "13",
+      "name": "AS ROMA",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-roma.png"
+    },
+    {
+      "key": "14",
+      "name": "INTER MILAN",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-Inter.png"
+    },
+    {
+      "key": "15",
+      "name": "JUVENTUS",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-juventus.png"
+    },
+    {
+      "key": "16",
+      "name": "PARIS SAINT GERMAIN",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-psg.png"
+    },
+    {
+      "key": "17",
+      "name": "LA GALAXY",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-galaxy.png"
+    },
+    {
+      "key": "18",
+      "name": "AJAX AMSTERDAM",
+      "img": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-ajax.png"
+    }
+  ],
+  "kitsclub": [
+    {
+      "id": "1",
+      "name": "Arsenal",
+      "kits": [
+        {
+          "key": "0",
+          "image": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-arsenal-san-nha-1-300x300.jpg"
+        },
+        {
+          "key": "1",
+          "image": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-arsenal-san-nha-2-300x300.jpg"
+        },
+        {
+          "key": "2",
+          "image": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-arsenal-san-nha-6-300x300.jpg"
+        },
+        {
+          "key": "3",
+          "image": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-arsenal-san-nha-5-600x600.jpg"
+        },
+        {
+          "key": "4",
+          "image": "hhttps://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-arsenal-san-nha-4-300x300.jpg"
+        }
+      ],
+
+      "price": 300000,
+      "sale": 15,
+      "title": "Áo bóng đá Arsenal sân nhà 2022 – 2023 hàng Thái Lan"
+    },
+    {
+      "id": "2",
+      "name": "Arsenal",
+      "kits": [
+        {
+          "key": "0",
+          "image": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-arsenal-san-khach-1-300x300.jpg"
+        },
+        {
+          "key": "1",
+          "image": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-arsenal-san-khach-2-300x300.jpg"
+        },
+        {
+          "key": "2",
+          "image": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-arsenal-san-khach-5-300x300.jpg"
+        },
+        {
+          "key": "3",
+          "image": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-arsenal-san-khach-4-300x300.jpg"
+        },
+        {
+          "key": "4",
+          "image": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-arsenal-san-khach-3-300x300.jpg"
+        }
+      ],
+      "price": 300000,
+      "sale": 15,
+      "title": "Áo bóng đá Arsenal sân khách 2022 – 2023 hàng Thái Lan"
+    },
+    {
+      "id": "3",
+      "name": "Arsenal",
+      "kits": [
+        {
+          "key": "0",
+          "image": "https://www.sporter.vn/wp-content/uploads/2022/08/Ao-bong-da-arsenal-san-khach-mau-ba-1-300x300.jpg"
+        },
+        {
+          "key": "1",
+          "image": "https://www.sporter.vn/wp-content/uploads/2022/08/Ao-bong-da-arsenal-san-khach-mau-ba-2-300x300.jpg"
+        },
+        {
+          "key": "2",
+          "image": "https://www.sporter.vn/wp-content/uploads/2022/08/Ao-bong-da-arsenal-san-khach-mau-ba-4-300x300.jpg"
+        },
+        {
+          "key": "3",
+          "image": "https://www.sporter.vn/wp-content/uploads/2022/08/Ao-bong-da-arsenal-san-khach-mau-ba-3-300x300.jpg"
+        },
+        {
+          "key": "4",
+          "image": "https://www.sporter.vn/wp-content/uploads/2022/08/Ao-bong-da-arsenal-san-khach-mau-ba-5-300x300.jpg"
+        }
+      ],
+      "price": 300000,
+      "sale": 15,
+      "title": "Áo bóng đá Arsenal sân khách 2022 – 2023 hàng Thái Lan"
+    },
+    {
+      "id": "4",
+      "name": "AC Milan",
+      "kits": [
+        {
+          "key": "0",
+          "image": "https://www.sporter.vn/wp-content/uploads/2022/10/Ao-bong-da-ac-milan-san-khach-mau-ba-1-300x300.jpg"
+        },
+        {
+          "key": "1",
+          "image": "https://www.sporter.vn/wp-content/uploads/2021/08/1-2-300x300.jpg"
+        },
+        {
+          "key": "2",
+          "image": "https://www.sporter.vn/wp-content/uploads/2021/08/2-2-300x300.jpg"
+        },
+        {
+          "key": "3",
+          "image": "https://www.sporter.vn/wp-content/uploads/2021/08/3-2-300x300.jpg"
+        },
+        {
+          "key": "4",
+          "image": "https://www.sporter.vn/wp-content/uploads/2021/08/8-2-300x300.jpg"
+        }
+      ],
+      "price": 300000,
+      "sale": 15,
+      "title": "Áo bóng đá AC Milan sân khách mẫu ba 2022 – 2023 hàng Thái Lan"
+    }
+  ]
+}

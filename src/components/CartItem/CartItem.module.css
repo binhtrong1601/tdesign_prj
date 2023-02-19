@@ -1,0 +1,13 @@
+.cart_item {
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 23px;
+  color: #3d2e5c;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.cart_item:hover {
+  background-color: #3d2e5c;
+  color: white;
+  opacity: 1;
+}

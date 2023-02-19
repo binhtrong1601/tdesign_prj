@@ -1,0 +1,26 @@
+.video {
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+.watch {
+  border: none;
+  border-radius: 45px;
+  background-color: black;
+  padding: 5px 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  position: absolute;
+  top: 122%;
+  z-index: 1;
+  font-size: larger;
+  font-size: 25px;
+}
+.watch:hover {
+  opacity: 0.6;
+}
+.watch p {
+  margin: 0px;
+}

@@ -1,0 +1,15 @@
+.heart_item {
+  color: #8f8f8f;
+  font-size: 25px;
+  border: 3px solid #8f8f8f;
+  border-radius: 45px;
+  padding: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.heart_item:hover {
+  background-color: #c0392b;
+  border: 3px solid #c0392b;
+  color: white;
+  opacity: 1;
+}

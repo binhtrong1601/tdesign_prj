@@ -1,0 +1,71 @@
+.kits_item {
+  width: 25%;
+}
+.kits_item:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.image_kits img {
+  width: 100%;
+  background-size: cover;
+}
+.image {
+  position: relative;
+  cursor: pointer;
+}
+.image:hover .cart {
+  display: block;
+}
+.image:hover .heart {
+  display: block;
+}
+.image_sale {
+  display: block;
+  max-width: fit-content;
+  background-color: #3d2e5c;
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  top: 13%;
+  padding: 10px 5px;
+}
+.image_sale p {
+  margin-bottom: 0px;
+}
+.cart {
+  position: absolute;
+  top: 92%;
+  left: 2%;
+  display: none;
+}
+.heart {
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  display: none;
+}
+
+.infor {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.infor p {
+  font-size: 21px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.price_no_sale {
+  color: #666666;
+  text-decoration: line-through;
+}
+.name {
+  color: #dd8568;
+  cursor: pointer;
+}
+.name:hover {
+  color: black;
+}

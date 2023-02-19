@@ -1,0 +1,26 @@
+.cart_item {
+  font-size: 30px;
+}
+
+.button {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  width: max-content;
+  padding: 4px 10px;
+  border: 2px solid #666666;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.5;
+}
+.button:hover {
+  background-color: #3d2e5c;
+  color: white;
+  opacity: 1;
+  border: 2px solid #3d2e5c;
+}
+.button p {
+  font-size: 20px;
+  margin: 0px;
+  font-weight: 501;
+}
