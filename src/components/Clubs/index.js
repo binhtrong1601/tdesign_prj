@@ -1,3 +1,4 @@
+//CÁI NÀY LÀ LIST CÁC CLUBITEMS Ở TRÊN
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import ClubItems from "../ClubItems";
@@ -8,9 +9,10 @@ const Clubs = () => {
   const [clubs, setClubs] = useState([]);
 
   const handleFetchProduct = async () => {
-    const clubData = await axios.get("http://localhost:3001/clubdata");
-    console.log(clubData);
-    setClubs(clubData.data);
+    const clubData = await axios.get("http://localhost:3001/kitsclub");
+    const tmp = [...clubData.data];
+
+    setClubs(tmp);
   };
   useEffect(() => {
     handleFetchProduct();

@@ -4,19 +4,20 @@ import { Dropdown, Space } from "antd";
 
 import menuData from "../../data/menuData";
 import Search from "../Search";
-import logo from "../../imgs/tds-1.png";
+import logo from "../../imgs/tds-3.png";
 
 import styles from "./headers.module.css";
 import Cart from "../Cart";
+import { Link } from "react-router-dom";
 
 const Headers = () => {
   return (
     <div className={styles.header}>
       <div className="container">
         <div className={styles.header_container}>
-          <div className={styles.logo}>
-            <img style={{ maxWidth: 130 }} src={logo} />
-          </div>
+          <Link to="/" className={styles.logo}>
+            <img style={{ maxWidth: 200 }} src={logo} />
+          </Link>
           <div className={styles.menu}>
             {menuData.map((props) => {
               return (

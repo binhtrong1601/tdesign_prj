@@ -1,12 +1,14 @@
+import { Footer } from "antd/es/layout/layout";
 import React from "react";
-import { ListKits } from "../../components";
-import CarouselTest from "../../components/Carousel.js";
+import { Headers, ListKits } from "../../components";
 
+import styles from "./ProductPage.module.css";
 const ProductPage = () => {
   return (
-    <div>
-      {/* <ListKits /> */}
-      <CarouselTest />
+    <div className={styles.product_page}>
+      <Headers />
+      <ListKits productName="kitsClub" />
+      <Footer />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./DetailProductPage.module.css";
+import styles from "./DetailNationsKits.module.css";
 import {
   AddCart,
   DetailKits,
@@ -9,16 +9,16 @@ import {
   Footer,
 } from "../../components";
 
-const DetailProductPage = () => {
+const DetailNationsKits = () => {
   return (
     <div className={styles.product_page_container}>
       <Headers />
       <div className="container">
         <div className={styles.product_page}>
-          <NewCarousel productName="kitsClub" />
+          <NewCarousel productName="nationsKits" />
           <div>
-            <DetailKits productName="kitsClub" />
-            <AddCart productName="kitsClub" />
+            <DetailKits productName="nationsKits" />
+            <AddCart productName="nationsKits" />
             <Contact />
           </div>
         </div>
@@ -28,4 +28,4 @@ const DetailProductPage = () => {
   );
 };
 
-export default DetailProductPage;
+export default DetailNationsKits;

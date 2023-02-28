@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import styles from "./data.module.css";
+
 const menuData = [
   {
     id: "1",
@@ -12,19 +15,35 @@ const menuData = [
     title: "ÁO BÓNG ĐÁ",
     item: [
       {
-        label: "ÁO ĐỘI TUYỂN",
+        label: (
+          <Link to="/product" className={styles.link}>
+            <p>ÁO CÂU LẠC BỘ</p>
+          </Link>
+        ),
         key: "1",
       },
       {
-        label: "ÁO CÂU LẠC BỘ",
+        label: (
+          <Link to="/nologo" className={styles.link}>
+            <p>ÁO KHÔNG LOGO</p>
+          </Link>
+        ),
         key: "2",
       },
       {
-        label: "ÁO THIẾT KẾ",
+        label: (
+          <Link to="/nations" className={styles.link}>
+            <p>ÁO ĐỘI TUYỂN</p>
+          </Link>
+        ),
         key: "3",
       },
       {
-        label: "ÁO KHÔNG LOGO",
+        label: (
+          <Link to="/nations" className={styles.link}>
+            <p>ÁO THIẾT KẾ</p>
+          </Link>
+        ),
         key: "4",
       },
     ],

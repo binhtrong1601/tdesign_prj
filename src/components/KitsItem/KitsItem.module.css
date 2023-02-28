@@ -1,5 +1,12 @@
+.link {
+  text-decoration: none;
+  width: 100% !important;
+}
+.link:hover {
+  text-decoration: none;
+}
 .kits_item {
-  width: 25%;
+  width: 100%;
 }
 .kits_item:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -68,4 +75,11 @@
 }
 .name:hover {
   color: black;
+}
+.link {
+  text-decoration: none;
+  width: 100%;
+}
+.link:hover {
+  text-decoration: none;
 }

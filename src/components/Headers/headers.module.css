@@ -4,6 +4,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.logo {
+  text-decoration: none;
+}
 .logo :hover {
   cursor: pointer;
   opacity: 0.7;

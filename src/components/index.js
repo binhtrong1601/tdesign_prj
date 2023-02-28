@@ -7,3 +7,8 @@ export { default as Footer } from "./Footer";
 export { default as CartItem } from "./CartItem";
 export { default as KitsItem } from "./KitsItem";
 export { default as ListKits } from "./ListKits";
+export { default as NewCarousel } from "./NewCarousel";
+export { default as DetailKits } from "./DetailKits";
+export { default as AddCart } from "./AddCart";
+export { default as Contact } from "./Contact";
+export { default as UpdateCart } from "./UpdateCart";
