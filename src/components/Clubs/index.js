@@ -1,6 +1,7 @@
 //CÁI NÀY LÀ LIST CÁC CLUBITEMS Ở TRÊN
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { generateEnglishNameShort } from '../../common';
 import ClubItems from '../ClubItems';
 
 import styles from './clubs.module.css';
@@ -32,8 +33,8 @@ const Clubs = () => {
         <div className={styles.clubs_container}>
           <p className={styles.title}>CLICK CHUỘT VÀO LOGO CLB ĐỂ XEM CHI TIẾT ÁO ĐẤU</p>
           <div className={styles.list_club}>
-            {clubs.map((clubs) => (
-              <ClubItems key={clubs.key} data={clubs} onClick={handleClick} />
+            {clubs.map((club) => (
+              <ClubItems key={club.key} id={generateEnglishNameShort(club.name)} data={club} onClick={handleClick} />
             ))}
           </div>
         </div>

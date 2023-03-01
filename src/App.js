@@ -4,6 +4,7 @@ import DetailNationsKits from './pages/DetailNationKits';
 import DetailNologoPage from './pages/DetailNologoPage';
 import DetailProductPage from './pages/DetailProductPage';
 import HomePage from './pages/HomePage';
+import ListProductOfClub from './pages/ListProductOfClub';
 import NationsKitsPage from './pages/NationsKitsPage';
 import NologoPage from './pages/NologoPages';
 import ProductPage from './pages/ProductPage';
@@ -17,7 +18,8 @@ function App() {
 
         <Route path="/product" element={<ProductPage />} />
         <Route path="/product/:id" element={<DetailProductPage />} />
-
+        <Route path="/club/:club" element={<ListProductOfClub />} />
+        <Route path="/club/:club/:id" element={<DetailProductPage />} />
         <Route path="/nologo" element={<NologoPage />} />
         <Route path="/nologo/:id" element={<DetailNologoPage />} />
 

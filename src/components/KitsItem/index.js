@@ -9,7 +9,8 @@ const KitsItem = (props) => {
   const image2 = props.data.kits[1].image || image1;
   const [hover, setHover] = useState(true);
   const [url, setUrl] = useState(image1);
-
+  console.log(props.id);
+  console.log("🚀 ~ file: index.js:13 ~ KitsItem ~ props.id:", props.id)
   const handleImageChange = () => {
     if (hover) {
       setUrl(image1);
