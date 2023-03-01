@@ -1,0 +1,6 @@
+.img {
+  cursor: pointer;
+}
+.club_items:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,6 @@
+.product_page {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 30px;
+  margin-bottom: 30px;
+}

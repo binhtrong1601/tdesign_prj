@@ -1,0 +1,30 @@
+.add_cart {
+  display: flex;
+  gap: 20px;
+}
+.count {
+  display: flex;
+  align-items: center;
+}
+.count button {
+  padding: 10px 10px;
+  border: 1px solid #ddd;
+}
+.count button:hover {
+  background-color: #949494;
+}
+
+.count p {
+  padding: 10px 15px;
+  margin-bottom: 0px;
+}
+.cart button {
+  font-size: 22px;
+  background-color: #d26e4b;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+}
+.cart button:hover {
+  background-color: #a14d2e;
+}

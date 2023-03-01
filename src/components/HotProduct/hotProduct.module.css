@@ -1,0 +1,27 @@
+.hot_product {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.content p {
+  font-size: 22px;
+}
+.border {
+  font-weight: 501;
+}
+.title {
+  margin: 40px 0px 40px 0px;
+}
+.title p {
+  font-weight: 501;
+  font-size: 28px;
+  line-height: 28px;
+  color: #2f3640;
+  margin: 0;
+}
+.image {
+  display: flex;
+  gap: 4%;
+}
+.image img {
+  width: 48%;
+}

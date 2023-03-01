@@ -1,0 +1,23 @@
+.button {
+  font-size: 20px;
+  font-weight: 501;
+  border: none;
+  background-color: #3d2e5c;
+  color: white;
+  padding: 7px 25px;
+  border-radius: 40px;
+}
+.input {
+  border: none;
+  width: 100%;
+  color: white;
+  border-radius: 40px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #666666;
+  outline: none;
+  margin-bottom: 10px;
+}
+.input::placeholder {
+  color: white;
+}

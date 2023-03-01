@@ -1,0 +1,56 @@
+.contact {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.contact a {
+  text-decoration: none;
+}
+.contact p {
+  margin: 0px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.zalo {
+  background-color: #b20000;
+  border: 3px solid #b20000;
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.zalo p {
+  color: white;
+}
+.zalo:hover {
+  opacity: 0.8;
+}
+.hotline {
+  border: 3px solid #b20000;
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.hotline p {
+  color: #b20000;
+}
+.hotline:hover {
+  background-color: #b20000;
+}
+.hotline:hover p {
+  color: white;
+}
+.icon {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+.item_icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: darkgrey;
+}
+.item_icon:hover {
+  color: #0075ff;
+}
