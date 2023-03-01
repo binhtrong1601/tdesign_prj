@@ -1,11 +1,4 @@
-import {
-  Clubs,
-  Footer,
-  Headers,
-  HotProduct,
-  ListProduct,
-  VideoBanner,
-} from "../../components";
+import { Clubs, Footer, Headers, HotProduct, ListProduct, VideoBanner } from '../../components';
 
 const HomePage = () => {
   return (

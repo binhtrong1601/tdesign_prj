@@ -1,76 +1,108 @@
-//CODE Ở ĐÂY - PHẦN XỬ LÝ VIEWCART(UPDATE, XÓA)
-import React, { useEffect } from "react";
-import styles from "./UpdateCart.module.css";
-import { useState } from "react";
-import HandleFormatPrice from "../HandleFormatPrice";
+import React, { useEffect, useCallback } from 'react';
+import styles from './UpdateCart.module.css';
+import { useState } from 'react';
+import HandleFormatPrice from '../HandleFormatPrice';
 
-const CART_KEY = "cart";
+import { usePrevious } from '../../hooks';
+
+const CART_KEY = 'cart';
 
 const Count = (props) => {
-  const [count, setCount] = useState(props.count);
-
-  useEffect(() => {}, [count]);
+  const [count, setCount] = useState(props.productCount);
+  const previousCount = usePrevious(count);
 
   const handleAddCount = () => {
-    count >= 0 ? setCount(count + 1) : setCount(0);
+    setCount((prevCount) => prevCount + 1);
   };
+
   const handleApartCount = () => {
-    count > 0 ? setCount(count - 1) : setCount(0);
+    setCount((prevCount) => prevCount - 1);
   };
-  console.log(props);
+
+  const handleSavingDataAfterCounting = useCallback(
+    (idProduct) => {
+      const newListProductsAdd = props.listProductsAdd.map((product) =>
+        product.idProduct === idProduct
+          ? {
+              ...product,
+              productCount: count,
+            }
+          : product,
+      );
+      props.setListProductsAdd(newListProductsAdd);
+      localStorage.setItem(CART_KEY, JSON.stringify(newListProductsAdd));
+    },
+    [count, props],
+  );
+
+  useEffect(() => {
+    if (previousCount !== count) {
+      handleSavingDataAfterCounting(props.idProduct);
+    }
+  }, [count, handleSavingDataAfterCounting, previousCount, props.idProduct]);
 
   return (
-    <div className={styles.count}>
-      <button onClick={handleApartCount}>-</button>
-      <p>{count}</p>
-      <button onClick={handleAddCount}>+</button>
-    </div>
+    <>
+      <div className={styles.count}>
+        <div className={styles.count}>
+          <button onClick={handleApartCount}>-</button>
+          <p>{count}</p>
+          <button onClick={handleAddCount}>+</button>
+        </div>
+      </div>
+
+      <div className={styles.total}>
+        {HandleFormatPrice(count * (props.productPrice * (1 - props.productSale / 100)))}
+      </div>
+    </>
   );
 };
 
 const UpdateCart = () => {
-  const listProductsAddLocalStrorage = JSON.parse(
-    localStorage.getItem(CART_KEY)
-  );
+  const listProductsAddLocalStrorage = JSON.parse(localStorage.getItem(CART_KEY));
 
   const [listProductsAdd, setListProductsAdd] = useState(
-    Array.isArray(listProductsAddLocalStrorage)
-      ? listProductsAddLocalStrorage
-      : []
+    Array.isArray(listProductsAddLocalStrorage) ? listProductsAddLocalStrorage : [],
   );
 
-  const listProductsAdded = [...listProductsAdd];
-  const handleDeleteItem = () => {};
+  const handleDeleteItem = (idProduct) => {
+    if (!idProduct) return;
 
-  const handleAddCart = () => {};
+    const newListProductsAdd = listProductsAdd.filter(
+      (productAdd) => productAdd.idProduct !== idProduct,
+    );
+    setListProductsAdd(newListProductsAdd);
+    localStorage.setItem(CART_KEY, JSON.stringify(newListProductsAdd));
+  };
+
+  const handleUpdateCart = () => {};
 
   return (
     <div className={styles.update_cart}>
-      {listProductsAdded.map((props) => (
-        <div className={styles.cart_item}>
-          <div className={styles.delete}>x</div>
+      {listProductsAdd.map((props) => (
+        <div className={styles.cart_item} key={props.idProduct}>
+          <div className={styles.delete} onClick={() => handleDeleteItem(props?.idProduct)}>
+            x
+          </div>
           <div className={styles.infor}>
-            <img src={props.productImage} className={styles.image_item} />
+            <img src={props.productImage} className={styles.image_item} alt="" />
             <p>{props.productTitle}</p>
           </div>
           <div className={styles.price}>
-            {HandleFormatPrice(
-              props.productPrice * (1 - props.productSale / 100)
-            )}
+            {HandleFormatPrice(props.productPrice * (1 - props.productSale / 100))}
           </div>
-          <div className={styles.count}>
-            <Count count={props.productCount} />
-          </div>
-          <div className={styles.total}>
-            {HandleFormatPrice(
-              props.productCount *
-                (props.productPrice * (1 - props.productSale / 100))
-            )}
-          </div>
+          <Count
+            idProduct={props?.idProduct}
+            productCount={props.productCount}
+            productPrice={props.productPrice}
+            productSale={props.productSale}
+            listProductsAdd={listProductsAdd}
+            setListProductsAdd={setListProductsAdd}
+          />
         </div>
       ))}
       <div className={styles.update}>
-        <button onClick={handleAddCart}>UPDATE CART </button>
+        <button onClick={handleUpdateCart}>UPDATE CART</button>
       </div>
     </div>
   );

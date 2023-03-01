@@ -1,8 +1,8 @@
-import { Col, Row } from "antd";
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import KitsItem from "../KitsItem";
-import styles from "./ListKits.module.css";
+import { Col, Row } from 'antd';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import KitsItem from '../KitsItem';
+import styles from './ListKits.module.css';
 
 const ListKits = (props) => {
   const [kits, setKits] = useState([]);

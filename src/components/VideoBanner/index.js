@@ -1,8 +1,8 @@
-import React, { useRef, useState } from "react";
-import styles from "./VideoBanner.module.css";
-import urlDesign1 from "../../imgs/design-3.mp4";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlay } from "@fortawesome/free-solid-svg-icons";
+import React, { useRef, useState } from 'react';
+import styles from './VideoBanner.module.css';
+import urlDesign1 from '../../imgs/design-3.mp4';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 const VideoBanner = () => {
   const videoRef = useRef(null);

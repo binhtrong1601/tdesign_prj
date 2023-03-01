@@ -1,6 +1,6 @@
-import React from "react";
-import { ShoppingCartOutlined } from "@ant-design/icons";
-import styles from "./CartItem.module.css";
+import React from 'react';
+import { ShoppingCartOutlined } from '@ant-design/icons';
+import styles from './CartItem.module.css';
 const CartItem = () => {
   return (
     <div>

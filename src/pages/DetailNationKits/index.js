@@ -1,13 +1,6 @@
-import React from "react";
-import styles from "./DetailNationsKits.module.css";
-import {
-  AddCart,
-  DetailKits,
-  NewCarousel,
-  Headers,
-  Contact,
-  Footer,
-} from "../../components";
+import React from 'react';
+import styles from './DetailNationsKits.module.css';
+import { AddCart, DetailKits, NewCarousel, Headers, Contact, Footer } from '../../components';
 
 const DetailNationsKits = () => {
   return (

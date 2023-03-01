@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
-import { Dropdown, Space } from "antd";
+import { Dropdown, Space } from 'antd';
 
-import menuData from "../../data/menuData";
-import Search from "../Search";
-import logo from "../../imgs/tds-3.png";
+import menuData from '../../data/menuData';
+import Search from '../Search';
+import logo from '../../imgs/tds-3.png';
 
-import styles from "./headers.module.css";
-import Cart from "../Cart";
-import { Link } from "react-router-dom";
+import styles from './headers.module.css';
+import Cart from '../Cart';
+import { Link } from 'react-router-dom';
 
 const Headers = () => {
   return (
@@ -28,10 +28,7 @@ const Headers = () => {
                         items: props.item,
                       }}
                     >
-                      <a
-                        className={styles.item}
-                        onClick={(e) => e.preventDefault()}
-                      >
+                      <a className={styles.item} onClick={(e) => e.preventDefault()}>
                         <Space className={styles.title}>{props.title}</Space>
                       </a>
                     </Dropdown>

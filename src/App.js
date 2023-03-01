@@ -1,13 +1,13 @@
-import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import DetailNationsKits from "./pages/DetailNationKits";
-import DetailNologoPage from "./pages/DetailNologoPage";
-import DetailProductPage from "./pages/DetailProductPage";
-import HomePage from "./pages/HomePage";
-import NationsKitsPage from "./pages/NationsKitsPage";
-import NologoPage from "./pages/NologoPages";
-import ProductPage from "./pages/ProductPage";
-import ViewCartPage from "./pages/ViewCartPage";
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import DetailNationsKits from './pages/DetailNationKits';
+import DetailNologoPage from './pages/DetailNologoPage';
+import DetailProductPage from './pages/DetailProductPage';
+import HomePage from './pages/HomePage';
+import NationsKitsPage from './pages/NationsKitsPage';
+import NologoPage from './pages/NologoPages';
+import ProductPage from './pages/ProductPage';
+import ViewCartPage from './pages/ViewCartPage';
 
 function App() {
   return (

@@ -1,24 +1,20 @@
-import axios from "axios";
-import React from "react";
-import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
-import styles from "./AddCart.module.css";
+import axios from 'axios';
+import React from 'react';
+import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import styles from './AddCart.module.css';
 
-const CART_KEY = "cart";
+const CART_KEY = 'cart';
 
 const AddCart = (props) => {
   const [count, setCount] = useState(1);
   const id = useParams().id;
   const [products, setProducts] = useState([]);
 
-  const listProductsAddLocalStrorage = JSON.parse(
-    localStorage.getItem(CART_KEY)
-  );
+  const listProductsAddLocalStrorage = JSON.parse(localStorage.getItem(CART_KEY));
 
   const [listProductsAdd, setListProductsAdd] = useState(
-    Array.isArray(listProductsAddLocalStrorage)
-      ? listProductsAddLocalStrorage
-      : []
+    Array.isArray(listProductsAddLocalStrorage) ? listProductsAddLocalStrorage : [],
   );
   useEffect(() => {}, [count]);
 
@@ -31,9 +27,7 @@ const AddCart = (props) => {
 
   const handleFetchProduct = async () => {
     try {
-      const data = await axios.get(
-        `http://localhost:3001/${props.productName}/${id}`
-      );
+      const data = await axios.get(`http://localhost:3001/${props.productName}/${id}`);
       setProducts(data.data);
     } catch (err) {
       console.log(err);
