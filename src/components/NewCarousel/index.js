@@ -1,8 +1,8 @@
-import axios from "axios";
-import React from "react";
-import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
-import Carousel from "react-carousel-minimal/dist/components/Carousel";
+import axios from 'axios';
+import React from 'react';
+import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import Carousel from 'react-carousel-minimal/dist/components/Carousel';
 
 const NewCarousel = (props) => {
   const id = useParams().id;
@@ -10,9 +10,7 @@ const NewCarousel = (props) => {
 
   const handleFetchProduct = async () => {
     try {
-      const data = await axios.get(
-        `http://localhost:3001/${props.productName}/${id}`
-      );
+      const data = await axios.get(`http://localhost:3001/${props.productName}/${id}`);
       setProducts(data.data);
     } catch (err) {
       console.log(err);

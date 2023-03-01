@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./hotProduct.module.css";
+import React from 'react';
+import styles from './hotProduct.module.css';
 
 const HotProduct = () => {
   return (
@@ -7,15 +7,12 @@ const HotProduct = () => {
       <div className={styles.hot_product}>
         <div className={styles.content}>
           <p>
-            Quần áo bóng đá câu lạc bộ Inter Milan mùa giải mới nhất 2022 – 2023
-            sân nhà và sân khách hàng Việt Nam và hàng Thái Lan tại TDesign
-            Sport:
+            Quần áo bóng đá câu lạc bộ Inter Milan mùa giải mới nhất 2022 – 2023 sân nhà và sân
+            khách hàng Việt Nam và hàng Thái Lan tại TDesign Sport:
             <br />
-            ✓Sản phẩm chất lượng ✓Giá luôn tốt nhất ✓Được phép đổi trả ✓Giao
-            hàng toàn quốc!
+            ✓Sản phẩm chất lượng ✓Giá luôn tốt nhất ✓Được phép đổi trả ✓Giao hàng toàn quốc!
             <br />
-            Tên đầy đủ:{" "}
-            <span className={styles.border}>Inter Milan Football Club</span>
+            Tên đầy đủ: <span className={styles.border}>Inter Milan Football Club</span>
           </p>
         </div>
         <div className={styles.title}>

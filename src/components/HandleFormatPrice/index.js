@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 const HandleFormatPrice = (x) => {
-  return Intl.NumberFormat("vi-VN", {
-    style: "currency",
-    currency: "vnd",
+  return Intl.NumberFormat('vi-VN', {
+    style: 'currency',
+    currency: 'vnd',
   }).format(x);
 };
 

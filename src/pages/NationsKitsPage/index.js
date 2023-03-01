@@ -1,7 +1,7 @@
-import React from "react";
-import { Footer, Headers, ListKits } from "../../components";
+import React from 'react';
+import { Footer, Headers, ListKits } from '../../components';
 
-import styles from "./NationsKitsPage.module.css";
+import styles from './NationsKitsPage.module.css';
 
 const NationsKitsPage = () => {
   return (

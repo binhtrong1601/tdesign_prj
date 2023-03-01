@@ -1,8 +1,8 @@
-import { Footer } from "antd/es/layout/layout";
-import React from "react";
-import { Headers, ListKits } from "../../components";
+import { Footer } from 'antd/es/layout/layout';
+import React from 'react';
+import { Headers, ListKits } from '../../components';
 
-import styles from "./ProductPage.module.css";
+import styles from './ProductPage.module.css';
 const ProductPage = () => {
   return (
     <div className={styles.product_page}>

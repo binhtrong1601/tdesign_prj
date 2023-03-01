@@ -1,5 +1,5 @@
-import React from "react";
-import { UpdateCart } from "../../components";
+import React from 'react';
+import { UpdateCart } from '../../components';
 
 const ViewCartPage = () => {
   return (

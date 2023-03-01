@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import CartItem from "../CartItem";
-import HeartItem from "../HeartItem";
-import styles from "./KitsItem.module.css";
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import CartItem from '../CartItem';
+import HeartItem from '../HeartItem';
+import styles from './KitsItem.module.css';
 
 const KitsItem = (props) => {
   const image1 = props.data.kits[0].image;
@@ -18,9 +18,9 @@ const KitsItem = (props) => {
 
   const handleFormatPrice = (x) => {
     console.log(x);
-    return Intl.NumberFormat("vi-VN", {
-      style: "currency",
-      currency: "vnd",
+    return Intl.NumberFormat('vi-VN', {
+      style: 'currency',
+      currency: 'vnd',
     }).format(x);
   };
 
@@ -55,12 +55,8 @@ const KitsItem = (props) => {
           <div className={styles.infor}>
             <p className={styles.name}>{props.data.title}</p>
             <p className={styles.price}>
-              <span className={styles.price_no_sale}>
-                {handleFormatPrice(props.data.price)}
-              </span>{" "}
-              {handleFormatPrice(
-                props.data.price * (1 - props.data.sale / 100)
-              )}
+              <span className={styles.price_no_sale}>{handleFormatPrice(props.data.price)}</span>{' '}
+              {handleFormatPrice(props.data.price * (1 - props.data.sale / 100))}
             </p>
           </div>
         </div>

@@ -1,12 +1,12 @@
-import React from "react";
-import styles from "./Contact.module.css";
+import React from 'react';
+import styles from './Contact.module.css';
 
 import {
   FacebookOutlined,
   InstagramOutlined,
   TwitterOutlined,
   MailOutlined,
-} from "@ant-design/icons";
+} from '@ant-design/icons';
 
 const Contact = () => {
   return (

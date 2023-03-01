@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import styles from "./ItemProduct.module.css";
-import axios from "axios";
+import React, { useEffect, useState } from 'react';
+import styles from './ItemProduct.module.css';
+import axios from 'axios';
 
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 const Item = (props) => {
   return (
@@ -33,7 +33,7 @@ const ListProduct = () => {
   const [products, setProducts] = useState([]);
 
   const handleFetchProduct = async () => {
-    const data = await axios.get("http://localhost:3001/products");
+    const data = await axios.get('http://localhost:3001/products');
     console.log(data);
     setProducts(data.data);
   };
