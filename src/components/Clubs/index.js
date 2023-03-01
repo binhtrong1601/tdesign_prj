@@ -9,14 +9,23 @@ const Clubs = () => {
   const [clubs, setClubs] = useState([]);
 
   const handleFetchProduct = async () => {
-    const clubData = await axios.get('http://localhost:3001/kitsclub');
-    const tmp = [...clubData.data];
-
-    setClubs(tmp);
+    try {
+      const clubData = await axios.get(`http://localhost:3001/kitsclub`);
+      const result = clubData.data.filter((obj, index, arr) => {
+        return index === arr.findIndex((t) => t.name === obj.name);
+      });
+      setClubs(result);
+      console.log(result);
+    } catch (err) {
+      console.log(err);
+    }
   };
   useEffect(() => {
     handleFetchProduct();
   }, []);
+
+  const handleClick = () => {};
+
   return (
     <div className={styles.clubs}>
       <div className="container">
@@ -24,7 +33,7 @@ const Clubs = () => {
           <p className={styles.title}>CLICK CHUỘT VÀO LOGO CLB ĐỂ XEM CHI TIẾT ÁO ĐẤU</p>
           <div className={styles.list_club}>
             {clubs.map((clubs) => (
-              <ClubItems key={clubs.key} data={clubs} />
+              <ClubItems key={clubs.key} data={clubs} onClick={handleClick} />
             ))}
           </div>
         </div>

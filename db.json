@@ -536,6 +536,7 @@
       "id": "13",
       "key": "13",
       "name": "CHELSEA",
+      "logo": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-chelsea.png",
       "homeway": "sân nhà",
       "background": "https://www.sporter.vn/wp-content/uploads/2022/07/Ao-bong-da-chelsea-san-nha-1.jpg",
       "kits": [
@@ -556,6 +557,7 @@
       "id": "14",
       "key": "14",
       "name": "CHELSEA",
+      "logo": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-chelsea.png",
       "homeway": "sân khách",
       "background": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-chelsea-san-khach-mau-ba-1.jpg",
       "kits": [
@@ -576,6 +578,7 @@
       "id": "15",
       "key": "15",
       "name": "CHELSEA",
+      "logo": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-chelsea.png",
       "homeway": "sân khách",
       "background": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-chelsea-san-khach-1.jpg",
       "kits": [
@@ -604,6 +607,7 @@
       "id": "16",
       "key": "16",
       "name": "MANCHESTER UNITED",
+      "logo": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-mu.png",
       "homeway": "sân nhà",
       "background": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-manchester-united-san-nha-1.jpg",
       "kits": [
@@ -636,6 +640,7 @@
       "id": "17",
       "key": "17",
       "name": "MANCHESTER UNITED",
+      "logo": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-mu.png",
       "homeway": "sân khách",
       "background": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-mu-san-khach-1.jpg",
       "kits": [
@@ -668,6 +673,7 @@
       "id": "18",
       "key": "18",
       "name": "MANCHESTER UNITED",
+      "logo": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-mu.png",
       "homeway": "sân khách",
       "background": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-manchester-united-san-khach-mau-ba-1.jpg",
       "kits": [
@@ -696,6 +702,7 @@
       "id": "19",
       "key": "19",
       "name": "INTER MILAN",
+      "logo": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-Inter.png",
       "homeway": "sân nhà",
       "background": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-inter-milan-san-nha-1.jpg",
       "kits": [
@@ -724,6 +731,7 @@
       "id": "20",
       "key": "20",
       "name": "MANCHESTER CITY",
+      "logo": "https://www.sporter.vn/wp-content/uploads/2022/05/Logo-man-city.png",
       "homeway": "sân nhà",
       "background": "https://www.sporter.vn/wp-content/uploads/2017/06/Ao-bong-da-manchester-city-san-nha-1.jpg",
       "kits": [

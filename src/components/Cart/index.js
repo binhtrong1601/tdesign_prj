@@ -6,6 +6,7 @@ import styles from './cart.module.css';
 import { React, useState } from 'react';
 
 import HandleFormatPrice from '../HandleFormatPrice';
+import { Link } from 'react-router-dom';
 
 const CART_KEY = 'cart';
 
@@ -67,9 +68,11 @@ const Cart = () => {
     {
       key: `${keyIndex + 1}`,
       label: (
-        <div className={styles.view_cart}>
-          <p>VIEW CART</p>
-        </div>
+        <Link to="/viewcart">
+          <div className={styles.view_cart}>
+            <p>VIEW CART</p>
+          </div>
+        </Link>
       ),
     },
     {

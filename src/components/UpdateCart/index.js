@@ -4,6 +4,7 @@ import { useState } from 'react';
 import HandleFormatPrice from '../HandleFormatPrice';
 
 import { usePrevious } from '../../hooks';
+import { Link } from 'react-router-dom';
 
 const CART_KEY = 'cart';
 
@@ -43,7 +44,7 @@ const Count = (props) => {
 
   return (
     <>
-      <div className={styles.count}>
+      <div className={styles.count_container}>
         <div className={styles.count}>
           <button onClick={handleApartCount}>-</button>
           <p>{count}</p>
@@ -101,9 +102,11 @@ const UpdateCart = () => {
           />
         </div>
       ))}
-      <div className={styles.update}>
-        <button onClick={handleUpdateCart}>UPDATE CART</button>
-      </div>
+      <Link to="/">
+        <div className={styles.update}>
+          <button onClick={handleUpdateCart}>CONTINUE SHOPPING</button>
+        </div>
+      </Link>
     </div>
   );
 };
